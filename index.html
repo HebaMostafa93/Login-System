@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>Login</title>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---------------- Favicon------------ -->
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <!---------------- Website Fonts ------------ -->
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- ------------- Bootstrap ------------- -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ------------- Main Style Sheet ------------- -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="master-page m-auto text-center w-75 p-5 mt-5">
+      <h1>Smart Login System</h1>
+
+      <input id="emailInput" type="email" placeholder="Enter your email" class="form-control myInput my-3"/>
+      <div id="emailAlert" class="alert alert-danger ">Please Enter Your Registerd Email </div>
+
+      <input id="passwordInput" type="password" placeholder="Enter your password" class="form-control myInput my-3"/>
+      <div id="passwordAlert" class="alert alert-danger "> Please Enter Your Password </div>
+
+      <p id="inputsReq" class="text-danger mb-3 ">All inputs is required</p>
+      <p id="incorrect" class="text-danger mb-3 ">Incorrect Email or Password !</p>
+
+      <a id="loginBtn" class="btn btn-outline-info login-btn my-3 w-100">Login</a>
+      <p class="text-white">Don’t have an account? <span><a href="signup.html" class="text-white signup-btn">Sign Up</a></span></p>
+
+    </div>
+    </div>
+  </div>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

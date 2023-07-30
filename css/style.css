@@ -1,0 +1,49 @@
+body{
+    font-family: 'Titillium We', sans-serif;
+    background: rgb(36, 53, 63);
+}
+.master-page{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+h1 {
+    color: rgb(23, 162, 184);
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.myInput {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.myInput::placeholder {
+    color: #b3b8bd;
+}
+.myInput:focus {
+    border-color: #80bdff !important;
+    box-shadow: none;
+}
+.login-btn {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}
+.login-btn:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.signup-btn{
+    text-decoration: none;
+}
+.signup-btn:hover{
+    text-decoration: underline;
+}
+.alert{
+    display: none;
+}
+#inputsReq , #incorrect , #exists{
+    display: none;
+}

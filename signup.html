@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <title>Sign UP</title>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---------------- Favicon------------ -->
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <!---------------- Website Fonts ------------ -->
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- ------------- Bootstrap ------------- -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ------------- Main Style Sheet ------------- -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="master-page m-auto text-center w-75 p-5 mt-5">
+      <h1>Smart Login System</h1>
+
+      <input id="nameInput" type="text" placeholder="Enter your name" class="form-control myInput my-3"/>
+      <div id="nameAlert" class="alert alert-danger ">Please Enter a Valid Name (at least 3 characters)</div>
+
+      <input id="emailInput" type="email" placeholder="Enter your email" class="form-control myInput my-3"/>
+      <div id="emailAlert" class="alert alert-danger ">Please Enter a Valid email (abc@mail.com) </div>
+
+      <input id="passwordInput" type="password" placeholder="Enter your password" class="form-control myInput my-3"/>
+      <div id="passwordAlert" class="alert alert-danger "> Password must start with a letter (from 4 to 15 characters) </div>
+
+      <p id="inputsReq" class="text-danger mb-3 ">All inputs is required</p>
+      <p id="exists" class="text-danger mb-3 ">Email already exists</p>
+
+      <a id="signupBtn" class="btn btn-outline-info login-btn my-3 w-100">Sign Up</a>
+      <p class="text-white">You have an account? <span><a href="index.html" class="text-white signup-btn">Signin</a></span></p>
+
+    </div>
+    </div>
+  </div>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
